@@ -1,0 +1,151 @@
+.custom-button {
+    -fx-font-size: 24px; /* Increased font size */
+    -fx-background-color: #3b3b3b; /* Dark gray background */
+    -fx-text-fill: #f5f5f5; /* Light gray text */
+    -fx-padding: 10px 20px;
+    -fx-border-color: #8a8a8a; /* Border color similar to steel */
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px; /* More rounded corners */
+    -fx-background-radius: 10px; /* More rounded corners */
+    -fx-font-family: "Arial Black", Gadget, sans-serif; /* Bold font for a strong look */
+    -fx-cursor: hand; /* Cursor changes to hand on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0.0, 0.0); /* Slight shadow for depth */
+}
+
+.custom-button:hover {
+    -fx-background-color: #5b5b5b; /* Lighter gray on hover */
+}
+
+.custom-button:pressed {
+    -fx-background-color: #2b2b2b; /* Darker gray when pressed */
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.8), 4, 0.5, 0.0, 0.0); /* Inner shadow for pressed effect */
+}
+
+/* Style for the VBox */
+.custom-vbox {
+    -fx-background-color: rgba(60, 60, 60, 0.9); /* Semi-transparent dark background */
+    -fx-padding: 20px; /* Padding around the content */
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-spacing: 10px; /* Spacing between elements */
+    -fx-alignment: center; /* Center align the content */
+}
+
+/* Style for the labels inside the VBox */
+.custom-vbox-label {
+    -fx-font-size: 26px;
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-family: "Arial", sans-serif; /* Font family */
+    -fx-alignment: center;
+}
+
+/* Style for the buttons inside the VBox */
+.custom-vbox-button {
+    -fx-font-size: 18px;
+    -fx-background-color: #3b3b3b; /* Dark gray background */
+    -fx-text-fill: #f5f5f5;
+
+}
+/* Style for the game title label */
+.game-title {
+    -fx-font-size: 50px; /* Large font size */
+    -fx-font-family: "Impact", "Arial Black", sans-serif; /* Bold, impactful font */
+    -fx-text-fill: #FFD700; /* Gold color */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0.0, 0.0); /* Shadow for depth */
+    -fx-alignment: center; /* Center align the text */
+    -fx-padding: 20px; /* Padding around the text */
+}
+.custom-label {
+    -fx-font-size: 20px; /* Font size */
+    -fx-text-fill: #f5f5f5; /* Light gray text color */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-color: #3b3b3b; /* Dark gray background */
+    -fx-border-color: #8a8a8a; /* Border color similar to steel */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-font-family: "Arial Black", Gadget, sans-serif; /* Bold font for a strong look */
+    -fx-alignment: center; /* Center align the text */
+}
+
+.custom-button-weapon {
+    -fx-font-size: 18px;
+    -fx-background-color: #3b3b3b; /* Dark gray background */
+    -fx-text-fill: #f5f5f5; /* Light gray text */
+    -fx-padding: 10px 20px;
+    -fx-border-color: #8a8a8a; /* Border color similar to steel */
+    -fx-border-width: 3px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Arial Black", Gadget, sans-serif; /* Bold font for a strong look */
+    -fx-cursor: hand; /* Cursor changes to hand on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0.0, 0.0); /* Slight shadow for depth */
+    -fx-graphic-text-gap: 10px; /* Gap between image and text */
+}
+
+.custom-button-weapon:hover {
+    -fx-background-color: #5b5b5b; /* Lighter gray on hover */
+}
+
+.custom-button-weapon:pressed {
+    -fx-background-color: #2b2b2b; /* Darker gray when pressed */
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.8), 4, 0.5, 0.0, 0.0); /* Inner shadow for pressed effect */
+}
+.small-rotated-label {
+    -fx-font-size: 20px; /* Slightly bigger font size */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-rotate: 270; /* Rotate the label 270 degrees */
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-padding: 5px; /* Padding around the text */
+    
+    }
+    /* Custom Slider for Attack on Titan theme */
+.custom-slider {
+    -fx-padding: 20px;
+}
+
+.custom-slider .track {
+    -fx-background-color: linear-gradient(to right, #ff4500, #8b0000); /* Gradient from orange to dark red */
+    -fx-background-radius: 5px;
+    -fx-padding: 0.25em;
+}
+
+.custom-slider .thumb {
+    -fx-background-color: #b22222; /* Firebrick color */
+    -fx-background-radius: 50%;
+    -fx-pref-width: 20px; /* Thumb width */
+    -fx-pref-height: 20px; /* Thumb height */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0.0, 0.0); /* Shadow for depth */
+}
+
+.custom-slider .track:hover {
+    -fx-background-color: linear-gradient(to right, #ff6347, #b22222); /* Lighter gradient on hover */
+}
+
+.custom-slider .thumb:hover {
+    -fx-background-color: #ff6347; /* Lighter thumb on hover */
+}
+
+.custom-slider .thumb:pressed {
+    -fx-background-color: #8b0000; /* Darker thumb when pressed */
+}
+  
+.custom-toggle-button {
+    -fx-font-size: 24px; /* Increased font size */
+    -fx-background-color: #3b3b3b; /* Dark gray background */
+    -fx-text-fill: #f5f5f5; /* Light gray text */
+    -fx-padding: 10px 20px;
+    -fx-border-color: #8a8a8a; /* Border color similar to steel */
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px; /* More rounded corners */
+    -fx-background-radius: 10px; /* More rounded corners */
+    -fx-font-family: "Arial Black", Gadget, sans-serif; /* Bold font for a strong look */
+    -fx-cursor: hand; /* Cursor changes to hand on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0.0, 0.0); /* Slight shadow for depth */
+}
+
+.custom-toggle-button:selected {
+    -fx-background-color: #997570; /* Background color when selected */
+    -fx-text-fill: white; /* Text color when selected */
+}  
